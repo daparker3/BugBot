@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MS.BugBot</id>
+    <version>1.0.0.1</version>
+    <title>MS.BugBot</title>
+    <authors>daparker</authors>
+    <owners></owners>
+    <description>
+      BugBot is a debugger robot, based on the windbg APIs. It can support remote, kernel, or local debugging.
+      The robot is designed to be initialized once, with interface classes providing the needed output and trigger functionality.
+      It's intended to make collecting hard to reproduce crash dumps easier, but it can also record standard debug output from a running process or kernel.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      BugBot is a debugger robot, based on the windbg APIs. It can support remote, kernel, or local debugging.
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://nuget.org/packages/MS.BugBot</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://opensource.org/licenses/MS-PL</licenseUrl>
+    <copyright>Copyright MS 2016</copyright>
+    <dependencies>
+        <group targetFramework="net40">
+          <dependency id="log4net" version="1.2.10" />
+        </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="..\MS.BugBot.Help\Help\BugBot.docx" target="content"/>
+    <file src="..\MS.BugBot\bin\Release\mdbglib.dll" target="lib\net45"/>
+    <file src="..\MS.BugBot\bin\Release\MS.BugBot.dll" target="lib\net45"/>
+  </files>
+</package>
