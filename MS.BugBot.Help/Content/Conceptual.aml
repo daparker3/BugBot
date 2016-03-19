@@ -10,7 +10,6 @@
       It's intended to make collecting hard to reproduce crash dumps easier, but it can also record standard debug output from a running process or kernel.</para>
     </introduction>
 
-
     <relatedTopics>
       <externalLink>
         <linkText>BugBot on nuget</linkText>
@@ -28,6 +27,12 @@
         <linkText>Windows 10 SDK</linkText>
         <linkAlternateText>Windows 10 SDK</linkAlternateText>
         <linkUri>https://dev.windows.com/en-us/downloads/windows-10-sdk</linkUri>
+      </externalLink>
+
+      <externalLink>
+        <linkText>MSDN IDebugClient</linkText>
+        <linkAlternateText>MSDN IDebugClient</linkAlternateText>
+        <linkUri>https://msdn.microsoft.com/en-us/library/windows/hardware/ff549827(v=vs.85).aspx</linkUri>
       </externalLink>
       
       <!-- One or more of the following:
